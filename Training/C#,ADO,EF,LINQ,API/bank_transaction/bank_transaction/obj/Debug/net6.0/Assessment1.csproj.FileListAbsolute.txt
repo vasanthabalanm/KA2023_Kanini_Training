@@ -1,0 +1,15 @@
+E:\kanini\c#\bank_transaction\bank_transaction\bin\Debug\net6.0\Assessment1.exe
+E:\kanini\c#\bank_transaction\bank_transaction\bin\Debug\net6.0\Assessment1.deps.json
+E:\kanini\c#\bank_transaction\bank_transaction\bin\Debug\net6.0\Assessment1.runtimeconfig.json
+E:\kanini\c#\bank_transaction\bank_transaction\bin\Debug\net6.0\Assessment1.dll
+E:\kanini\c#\bank_transaction\bank_transaction\bin\Debug\net6.0\Assessment1.pdb
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.csproj.AssemblyReference.cache
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.GeneratedMSBuildEditorConfig.editorconfig
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.AssemblyInfoInputs.cache
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.AssemblyInfo.cs
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.csproj.CoreCompileInputs.cache
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.dll
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\refint\Assessment1.dll
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.pdb
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\Assessment1.genruntimeconfig.cache
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\ref\Assessment1.dll

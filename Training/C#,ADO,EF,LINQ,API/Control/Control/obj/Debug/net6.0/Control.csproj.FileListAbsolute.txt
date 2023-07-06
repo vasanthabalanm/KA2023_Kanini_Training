@@ -1,0 +1,15 @@
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.csproj.AssemblyReference.cache
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.GeneratedMSBuildEditorConfig.editorconfig
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.AssemblyInfoInputs.cache
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.AssemblyInfo.cs
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.csproj.CoreCompileInputs.cache
+E:\kanini\c#\Control\Control\bin\Debug\net6.0\Control.exe
+E:\kanini\c#\Control\Control\bin\Debug\net6.0\Control.deps.json
+E:\kanini\c#\Control\Control\bin\Debug\net6.0\Control.runtimeconfig.json
+E:\kanini\c#\Control\Control\bin\Debug\net6.0\Control.dll
+E:\kanini\c#\Control\Control\bin\Debug\net6.0\Control.pdb
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.dll
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\refint\Control.dll
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.pdb
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\Control.genruntimeconfig.cache
+E:\kanini\c#\Control\Control\obj\Debug\net6.0\ref\Control.dll

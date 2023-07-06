@@ -1,0 +1,5 @@
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\bank_transaction.csproj.AssemblyReference.cache
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\bank_transaction.GeneratedMSBuildEditorConfig.editorconfig
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\bank_transaction.AssemblyInfoInputs.cache
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\bank_transaction.AssemblyInfo.cs
+E:\kanini\c#\bank_transaction\bank_transaction\obj\Debug\net6.0\bank_transaction.csproj.CoreCompileInputs.cache
