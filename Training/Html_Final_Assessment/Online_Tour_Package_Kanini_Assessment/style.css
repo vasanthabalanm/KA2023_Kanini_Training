@@ -1,0 +1,26 @@
+h1{
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+div{
+    color: #d03090;
+    font-weight: bold;
+    font-style: italic;
+
+}
+div #result{
+    font-size: 15px;
+}
+table,th,tr,td{
+    background-color: #77f8aa;
+    margin-left: 35%;
+    border-spacing: 3px;
+    border-width: 5%;
+    border-style: solid;
+    align-content: left;
+}
+.cntr{
+    text-align: center;
+}

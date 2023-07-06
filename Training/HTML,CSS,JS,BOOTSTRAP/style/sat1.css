@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+}
+nav li{
+    
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
+    padding: 20px ;
+    background-color: none;
+    font-size: 20px;
+    margin: auto;
+}
+li{ 
+    display: block;
+}

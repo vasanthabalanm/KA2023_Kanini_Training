@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="cssbt.css">
+    <title>Table</title>
+</head>
+
+<body>
+    <div class="container-fluid mt-3">
+        <p class="bg-success text-light">This is a paragraph1</p>
+        <p class="para2">This is a paragraph2</p>
+        <p class="bg-secondary text-light">This is a paragrap3</p>
+    </div>
+
+    <!--
+        Table appreerance classes
+        .table-striped
+        .table-bordered
+        .table-dark
+        .table-borderless
+        .table-hover
+        .table-light
+
+        Table display styles
+        .table-success
+
+        Responsive styles
+        .table-responsive-xl
+
+    -->
+
+    <table class="table table-light table-bordered table-hover table-responsive-xl">
+        <thead class="table-dark">
+            <tr>
+                <th>Rollno</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Boopathy</td>
+            </tr>
+            <tr class="table-info">
+                <td>2</td>
+                <td>Gowtham</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Viswak</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+        Image design class
+        .rounded
+        .rounded-circle
+        .img-thumbnail
+        .float-start
+        .float-end
+        .mx-auto(margin auto) .d-block   -- center align
+        .img-fluid     --- responsive image 
+    -->
+    <img src="/images/freelancher.jpg" class="img-fluid" alt="no-img" height="200px" width="200px">
+
+    <!--
+        ALerts
+        .alert
+        .alert-success
+        .alert-info
+        .alert-warning
+        .alert-danger
+        .alert-primary
+        .alert-secondary
+        .alert-light
+        .alert-dark
+
+        .alert-link
+        .alert-dismissible
+        .fade
+        .show
+
+    -->
+    <div class="alert alert-primary show">
+        <a href="#" Click="alert-link">Click</a>
+    </div>
+
+    <!--
+        Button
+        .btn
+        .btn-success
+        .btn-primary
+        .btn-secondary
+
+    -->
+
+    <!--
+        Outline
+        .btn-lg
+        .btn-sm
+        d-grid btn-block
+        .disabled
+        .active
+        .gap-3
+    -->
+
+    <button type="button" class="btn btn-success btn-lg">
+        Click Me
+    </button>
+
+    <a href="#" class="btn btn-primary btn-sm">Link Button</a>
+
+    <input type="button" class="btn btn-danger" value="Input Button">
+
+    <br><br>
+
+    <div class="d-grid gap-2">
+        <button type="button" class="btn btn-success btn-block active">Full width button</button>
+        <button type="button" class="btn btn-success btn-block active">Full width button</button>
+        <button type="button" class="btn btn-success btn-block active">Full width button</button>
+    </div>
+
+    <!--
+        Button outline
+        .btn_outline_info
+    -->
+    <button type="button" class="btn btn-outline-info btn-lg">
+        Click Me
+    </button>
+
+    <!--
+        btn-group
+        btn-group-sm
+        btn-group-lg
+        btn-group-vertical
+    -->
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-success btn-block active">Button A</button>
+        <button type="button" class="btn btn-success btn-block active">Button B</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-success btn-block active" data-bs-toggle="dropdown">Button C</button>
+            <div class="dropdown-menu">
+                <a clsss="dropdown-item" href="#">X</a>
+                <a clsss="dropdown-item" href="#">Y</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col h1 bg-primary text-light text-center">col1</div>
+        <div class="col h2 bg-warning text-light initialism">col2</div>
+        <div class="col h3 bg-success text-light">col3</div>
+    </div>
+
+    <!--
+        appears like a button
+        used in mobile page development
+    -->
+
+    <div class="badge bg-primary">Message</div>
+
+    <!--Rounded button-->
+
+    <div class="badge rounded-pill bg-primary">Messages here </div>
+
+
+    <button type="button" class="btn btn-warning">
+        Check <span class="badge bg-success">4 mails</span>
+    </button>
+</body>
+
+</html>

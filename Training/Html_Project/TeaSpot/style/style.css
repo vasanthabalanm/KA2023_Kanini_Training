@@ -1,0 +1,129 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.back {
+  background-size: 100% 100%;
+}
+
+.nav-menu li::first-letter {
+  color: #89a948;
+  font-weight: 500;
+  
+}
+.nav-menu ul li a{
+    color: #111;
+    font-size: 20px;
+}
+.nav-menu li a:hover{
+    background-image:linear-gradient(rgb(43, 39, 39),rgb(43, 39, 39));
+    color: white;
+}
+.nav-menu   .dropdown-menu li a:hover{
+  background-image:linear-gradient(rgb(43, 39, 39),rgb(43, 39, 39));
+  color: white;
+}
+
+
+.contnt {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  .imgs img{
+    display: none;
+  }
+}
+
+
+.hed {
+  margin-top: 90px;
+  max-width: fit-content;
+  display: flex;
+}
+
+.colors {
+  color: #89a948;
+}
+.imgs {
+  background-size: 100% 100%;
+  background-image: url("/images/leaf.jpg");
+  background-repeat: no-repeat;
+}
+.contact {
+  background-color: #89a948;
+  margin-top: 26px;
+}
+.abt {
+  background-color: #89a948;
+  margin-top: 26px;
+}
+.rev {
+  background-color: #89a948;
+  margin-top: 26px;
+}
+.prd {
+  background-color: #89a948;
+  margin-top: 26px;
+}
+.ro {
+  display: flex;
+}
+.fot {
+  background-color: #89a948;
+  font-size: 15px;
+}
+
+#res{
+  font-size: 20px;
+}
+.checked{
+  color: orange;
+}
+a.pgs{
+  font-size: 20px;
+}
+.vlg{
+  display: flex;
+
+}
+.hdaa{
+  text-align: justify;
+}
+.image-container {
+  position: relative;
+}
+
+.overl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the overlay color and opacity */
+  color: #fff; /* Change the color of the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0; /* Hide the overlay by default */
+  transition: opacity 0.5s ease; /* Add a transition effect */
+}
+
+.image-container:hover .overl {
+  opacity: 5; /* Show the overlay when the image is hovered */
+}
+
+.overl h2 {
+  font-size: 40px; /* Change the size of the title */
+  
+}
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calc</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="bx">
+            <div class="ig text-center">
+                <img src="./images/bmi.jpg" alt="img">
+            </div>
+            <h1>Calculate your BMI:</h1>
+            <br>
+            <div class="text-center">
+                <label for="Height">Height:</label>
+                <input type="number" name="Height" id="Ht" value="Enter your height(in cm)">
+                <br>
+                <label for="Weight">Weight:</label>
+                <input type="number" name="Weight" id="Wt" value="Enter your weight(in kg)">
+            </div>
+            <div class="text-center ">
+                <label for="BMI">Check your BMI here!:</label>
+                <input type="button" value="Check BMI" onClick="calculateBmi()">
+                <div id="bmi"></div>
+                <div id="output">Please Wait...</div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function calculateBmi() {
+            var height = document.getElementById('Ht').value
+            var weight = document.getElementById('Wt').value
+
+
+            if (weight > 0 && height > 0) {
+                var BMI = weight / (height / 100 * height / 100)
+                document.getElementById("bmi").innerHTML = BMI
+
+                if (BMI < 18.5) {
+                    document.getElementById("output").innerHTML = "THIN! which means consult ur doctor!.."
+                }
+
+                if (BMI > 18.5 && BMI < 25) {
+                    document.getElementById("output").innerHTML = "OK,You are really good!.."
+                }
+
+                if (BMI > 25) {
+                    document.getElementById("output").innerHTML = "FAT!you should try to go Gym!.."
+                }
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

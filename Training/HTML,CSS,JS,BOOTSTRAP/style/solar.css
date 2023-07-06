@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+h2{
+    float: left;
+    font-size:40px;
+}
+.container{
+    list-style: none;
+    float: right;
+    margin-top: 45px;
+    margin-right: 25px;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: yellow;
+    padding: 8px;
+    font-size: 20px;
+    
+}
+.bgimg{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 180px;
+}
+/*.line{
+
+    position:absolute;
+    width: 500px;
+    height: 0px;
+    left: 718px;
+    top: 410px;
+    border: 1px solid #fffefe;
+    transform: rotate(90deg);
+    
+}*/
+#read {
+    float: right;
+}
+

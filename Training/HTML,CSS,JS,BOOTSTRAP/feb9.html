@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        .line{
+            position: absolute;
+            width: 736px;
+            height: 0px;
+            left: 352px;
+            top: 650px;
+
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+
+<body >
+    <nav>
+        <ul style=" list-style: none;">
+          <li><a style="text-decoration: none;color: black;" href="#home">Home</a></li>
+          <li><a style="text-decoration: none;color: black;"href="#about">About</a></li>
+          <li><a style="text-decoration: none;color: black;"href="#services">Services</a></li>
+          <li><a style="text-decoration: none;color: black;"href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+    <form name="Form" style="text-align: center;" >
+        <label> Registration form</label> <br>
+        
+        <label for="Fn">First name</label><input type="text" name="first name" placeholder="Balan" required>
+        <br>
+        <label for="ln"> Last name</label><input type="text" name="last name" required>
+        <br>
+        <label for="dob">Date of birth</label> <input type="date" name="dob" required>
+        <br>
+        
+        <label for="cont">Contact</label> <input type="number" name="phone" >
+        <br>
+        <label for="brnnch">Branch</label>
+        <select name="brnnch" >
+            <optgroup label="It stream">    
+            <option value="1">IT</option>
+            <option value="2" selected >CS</option>
+            </optgroup>
+            <optgroup label="core stream">
+            <option value="3">Mech</option>
+            <option value="4">eie</option>
+            <option value="5">eee</option>
+            </optgroup>
+        </select>
+        <br>
+        <textarea name="Address" cols="10" rows="10">Address</textarea>
+        <br>
+        <label for="gender">gender:</label>
+        <!-- for idntfy to use lable-->
+        <input type="radio" id="mal" name="gen"> <label for="gender">Male</label>
+        <input type="radio" id="femal" name="gen"> <label for="gender">Female</label> 
+        <br>
+        <label for="Hoby">Hobbies</label>
+        <input type="checkbox" name="sing" id="s"><label for="s">Sing</label>
+        <input type="checkbox" name="read" id="r"><label for="r">read</label>
+        <input type="checkbox" name="write" id="w"><label for="w">write</label>
+        <input type="checkbox" name="dance" id="d"><label for="d">dance</label>
+        <br>
+        <label for="tel">telephone</label>
+        <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}[0-9]{4}">
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <label >password</label>
+        <input type="password" name="pawrd" >
+        <br>
+        <p class="line"></p>
+    </form>
+    <html>
+  <head>
+    
+   
+
+</body>
+</html>
