@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\mark\mark\bin\Debug\net6.0\mark.exe
+C:\Users\Administrator\source\repos\mark\mark\bin\Debug\net6.0\mark.deps.json
+C:\Users\Administrator\source\repos\mark\mark\bin\Debug\net6.0\mark.runtimeconfig.json
+C:\Users\Administrator\source\repos\mark\mark\bin\Debug\net6.0\mark.dll
+C:\Users\Administrator\source\repos\mark\mark\bin\Debug\net6.0\mark.pdb
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.dll
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\refint\mark.dll
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.pdb
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\mark.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\mark\mark\obj\Debug\net6.0\ref\mark.dll

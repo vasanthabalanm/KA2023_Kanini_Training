@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\bin\Debug\net6.0\SingleInherit.exe
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\bin\Debug\net6.0\SingleInherit.deps.json
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\bin\Debug\net6.0\SingleInherit.runtimeconfig.json
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\bin\Debug\net6.0\SingleInherit.dll
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\bin\Debug\net6.0\SingleInherit.pdb
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.dll
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\refint\SingleInherit.dll
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.pdb
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\SingleInherit.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Prstise\SingleInherit\obj\Debug\net6.0\ref\SingleInherit.dll

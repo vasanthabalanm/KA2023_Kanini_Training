@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\bin\Debug\WorkIndotNet.exe.config
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\bin\Debug\WorkIndotNet.exe
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\bin\Debug\WorkIndotNet.pdb
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\obj\Debug\WorkIndotNet.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\obj\Debug\WorkIndotNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\obj\Debug\WorkIndotNet.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\obj\Debug\WorkIndotNet.exe
+C:\Users\Administrator\source\repos\Prstise\WorkIndotNet\obj\Debug\WorkIndotNet.pdb

@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\Prstise.exe
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\Prstise.deps.json
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\Prstise.runtimeconfig.json
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\Prstise.dll
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\Prstise.pdb
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.dll
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\refint\Prstise.dll
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.pdb
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\Prstise.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\ref\Prstise.dll

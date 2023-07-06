@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\day2\day2a\bin\Debug\net6.0\day2a.exe
+C:\Users\Administrator\source\repos\day2\day2a\bin\Debug\net6.0\day2a.deps.json
+C:\Users\Administrator\source\repos\day2\day2a\bin\Debug\net6.0\day2a.runtimeconfig.json
+C:\Users\Administrator\source\repos\day2\day2a\bin\Debug\net6.0\day2a.dll
+C:\Users\Administrator\source\repos\day2\day2a\bin\Debug\net6.0\day2a.pdb
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.dll
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\refint\day2a.dll
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.pdb
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\day2a.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\day2\day2a\obj\Debug\net6.0\ref\day2a.dll

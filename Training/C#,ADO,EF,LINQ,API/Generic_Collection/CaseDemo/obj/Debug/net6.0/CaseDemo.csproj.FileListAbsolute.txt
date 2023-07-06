@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\bin\Debug\net6.0\CaseDemo.exe
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\bin\Debug\net6.0\CaseDemo.deps.json
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\bin\Debug\net6.0\CaseDemo.runtimeconfig.json
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\bin\Debug\net6.0\CaseDemo.dll
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\bin\Debug\net6.0\CaseDemo.pdb
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.dll
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\refint\CaseDemo.dll
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.pdb
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\CaseDemo.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\CaseDemo\CaseDemo\obj\Debug\net6.0\ref\CaseDemo.dll

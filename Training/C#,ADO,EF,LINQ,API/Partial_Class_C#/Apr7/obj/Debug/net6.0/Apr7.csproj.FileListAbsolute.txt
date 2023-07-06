@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Apr7\Apr7\bin\Debug\net6.0\Apr7.exe
+C:\Users\Administrator\source\repos\Apr7\Apr7\bin\Debug\net6.0\Apr7.deps.json
+C:\Users\Administrator\source\repos\Apr7\Apr7\bin\Debug\net6.0\Apr7.runtimeconfig.json
+C:\Users\Administrator\source\repos\Apr7\Apr7\bin\Debug\net6.0\Apr7.dll
+C:\Users\Administrator\source\repos\Apr7\Apr7\bin\Debug\net6.0\Apr7.pdb
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.dll
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\refint\Apr7.dll
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.pdb
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\Apr7.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Apr7\Apr7\obj\Debug\net6.0\ref\Apr7.dll

@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\bin\Debug\net6.0\SampleLinq.exe
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\bin\Debug\net6.0\SampleLinq.deps.json
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\bin\Debug\net6.0\SampleLinq.runtimeconfig.json
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\bin\Debug\net6.0\SampleLinq.dll
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\bin\Debug\net6.0\SampleLinq.pdb
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.dll
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\refint\SampleLinq.dll
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.pdb
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\SampleLinq.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Prstise\SampleLinq\obj\Debug\net6.0\ref\SampleLinq.dll

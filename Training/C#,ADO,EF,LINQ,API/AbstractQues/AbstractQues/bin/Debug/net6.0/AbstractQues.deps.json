@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AbstractQues/1.0.0": {
+        "runtime": {
+          "AbstractQues.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AbstractQues/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\bin\Debug\net6.0\ExecutionAll.exe
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\bin\Debug\net6.0\ExecutionAll.deps.json
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\bin\Debug\net6.0\ExecutionAll.runtimeconfig.json
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\bin\Debug\net6.0\ExecutionAll.dll
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\bin\Debug\net6.0\ExecutionAll.pdb
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.dll
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\refint\ExecutionAll.dll
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.pdb
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ExecutionAll.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\ExecutionAll\ExecutionAll\obj\Debug\net6.0\ref\ExecutionAll.dll

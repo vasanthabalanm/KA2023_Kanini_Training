@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\bin\Debug\net6.0\AbstractQues.exe
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\bin\Debug\net6.0\AbstractQues.deps.json
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\bin\Debug\net6.0\AbstractQues.runtimeconfig.json
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\bin\Debug\net6.0\AbstractQues.dll
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\bin\Debug\net6.0\AbstractQues.pdb
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.dll
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\refint\AbstractQues.dll
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.pdb
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\AbstractQues.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\AbstractQues\AbstractQues\obj\Debug\net6.0\ref\AbstractQues.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UzR54kP3k91T1L4AugHLILy1lPe9VLMaqlyrVn3fmNU=",
+  "Source": "StoreMagementApi",
+  "BasePath": "_content/StoreMagementApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

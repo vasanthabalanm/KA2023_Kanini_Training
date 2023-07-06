@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\InheritanceConcepts.exe
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\InheritanceConcepts.deps.json
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\InheritanceConcepts.runtimeconfig.json
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\InheritanceConcepts.dll
+C:\Users\Administrator\source\repos\Prstise\Prstise\bin\Debug\net6.0\InheritanceConcepts.pdb
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.dll
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\refint\InheritanceConcepts.dll
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.pdb
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\InheritanceConcepts.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Prstise\Prstise\obj\Debug\net6.0\ref\InheritanceConcepts.dll

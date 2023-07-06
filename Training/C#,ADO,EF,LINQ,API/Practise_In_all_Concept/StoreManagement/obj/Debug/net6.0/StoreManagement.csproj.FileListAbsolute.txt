@@ -1,0 +1,5 @@
+C:\Users\Administrator\source\repos\Prstise\StoreManagement\obj\Debug\net6.0\StoreManagement.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Prstise\StoreManagement\obj\Debug\net6.0\StoreManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Prstise\StoreManagement\obj\Debug\net6.0\StoreManagement.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Prstise\StoreManagement\obj\Debug\net6.0\StoreManagement.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Prstise\StoreManagement\obj\Debug\net6.0\StoreManagement.csproj.CoreCompileInputs.cache

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Adocase_study" Class="LinqtoSqlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-QCJN09K\SQLEXPRESS;Initial Catalog=Adocase_study;Integrated Security=True" SettingsObjectName="WorkIndotNet.Properties.Settings" SettingsPropertyName="Adocase_studyConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Customer_Nodes" Member="Customer_Nodes">
+    <Type Name="Customer_Node">
+      <Column Name="customer_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="region_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="node_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="start_dates" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="end_dates" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Customer_transaction_Customer_Node" Member="Customer_transaction" ThisKey="customer_id" OtherKey="customer_id" Type="Customer_transaction" IsForeignKey="true" />
+      <Association Name="Region_Customer_Node" Member="Region" ThisKey="region_id" OtherKey="region_id" Type="Region" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer_transactions" Member="Customer_transactions">
+    <Type Name="Customer_transaction">
+      <Column Name="customer_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="txn_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="txn_type" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="txn_amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Customer_transaction_Customer_Node" Member="Customer_Nodes" ThisKey="customer_id" OtherKey="customer_id" Type="Customer_Node" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Regions" Member="Regions">
+    <Type Name="Region">
+      <Column Name="region_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="region_name" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="Region_Customer_Node" Member="Customer_Nodes" ThisKey="region_id" OtherKey="region_id" Type="Customer_Node" />
+    </Type>
+  </Table>
+</Database>

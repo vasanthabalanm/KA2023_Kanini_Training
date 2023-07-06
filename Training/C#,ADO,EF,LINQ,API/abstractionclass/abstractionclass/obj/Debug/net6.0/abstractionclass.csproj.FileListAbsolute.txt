@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\bin\Debug\net6.0\abstractionclass.exe
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\bin\Debug\net6.0\abstractionclass.deps.json
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\bin\Debug\net6.0\abstractionclass.runtimeconfig.json
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\bin\Debug\net6.0\abstractionclass.dll
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\bin\Debug\net6.0\abstractionclass.pdb
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.dll
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\refint\abstractionclass.dll
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.pdb
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\abstractionclass.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\abstractionclass\abstractionclass\obj\Debug\net6.0\ref\abstractionclass.dll

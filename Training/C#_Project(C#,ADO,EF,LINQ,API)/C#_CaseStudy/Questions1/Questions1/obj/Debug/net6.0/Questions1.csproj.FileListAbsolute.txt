@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Questions1\Questions1\bin\Debug\net6.0\Questions1.exe
+C:\Users\Administrator\source\repos\Questions1\Questions1\bin\Debug\net6.0\Questions1.deps.json
+C:\Users\Administrator\source\repos\Questions1\Questions1\bin\Debug\net6.0\Questions1.runtimeconfig.json
+C:\Users\Administrator\source\repos\Questions1\Questions1\bin\Debug\net6.0\Questions1.dll
+C:\Users\Administrator\source\repos\Questions1\Questions1\bin\Debug\net6.0\Questions1.pdb
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.dll
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\refint\Questions1.dll
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.pdb
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\Questions1.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Questions1\Questions1\obj\Debug\net6.0\ref\Questions1.dll
