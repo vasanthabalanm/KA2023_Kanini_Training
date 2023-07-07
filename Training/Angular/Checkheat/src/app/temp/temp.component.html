@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./temp.component.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="section">
+        <div class="box1">
+        
+        </div>
+
+        <div class="box2">
+            <h3>Conversion</h3>
+            <form (ngSubmit)="convertTemperature()">
+                <label>
+                  Temperature:
+                  <input type="number" [(ngModel)]="inputTemperature" name="inputTemperature" required>
+                </label>
+                <br><br>
+              
+                <label>
+                  Unit:
+                  <select [(ngModel)]="selectedUnit" name="selectedUnit" required>
+                    <option value="">-- Select --</option>
+                    <option value="C">Celsius</option>
+                    <option value="F">Fahrenheit</option>
+                  </select>
+                </label>
+                <br><br>
+              
+                <button type="submit">Convert</button>
+            </form>
+              
+
+              <p *ngIf="convertedTemperature">
+                Converted Temperature: {{ convertedTemperature }}
+              </p>
+
+              
+
+                   
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
