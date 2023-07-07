@@ -1,0 +1,19 @@
+<p>servers works!</p>
+<h2>Select Country</h2>
+<select (change)="SetDropDownValue($event)">
+  <option value="">Select</option>
+  <option value="In">In</option>
+  <option value="US">US</option>
+  <option value="UK">UK</option>
+</select>
+<h2>You Have Selected</h2>
+<div [ngSwitch] = 'dropDownValue'>
+  <p *ngSwitchCase="'In'">India</p>
+  <p *ngSwitchCase="'In'">India again</p>
+  <h3 *ngSwitchCase="'US'">United State</h3>
+  <h3 *ngSwitchCase="'UK'">United Kingdom</h3>
+  <h3 *ngSwitchDefault="''">You have not selected any country</h3>
+</div>
+<app-server></app-server>
+
+<app-server></app-server>
