@@ -1,0 +1,15 @@
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.csproj.AssemblyReference.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.AssemblyInfoInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.AssemblyInfo.cs
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.csproj.CoreCompileInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\bin\Debug\net7.0\Factory.exe
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\bin\Debug\net7.0\Factory.deps.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\bin\Debug\net7.0\Factory.runtimeconfig.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\bin\Debug\net7.0\Factory.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\bin\Debug\net7.0\Factory.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\refint\Factory.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\Factory.genruntimeconfig.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Factory\obj\Debug\net7.0\ref\Factory.dll
