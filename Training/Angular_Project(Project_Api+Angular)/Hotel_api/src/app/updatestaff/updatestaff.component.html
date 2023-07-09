@@ -1,0 +1,86 @@
+<div class="section">
+    <div class="box1">
+
+    </div>
+
+    <div class="box2">
+        <div class="row px-3 rows">
+            <form >
+                <label for="staffId"> staffId : </label><br>
+                <input type="number" id="staffId" name="staffId" [(ngModel)]="StaffsId" > <br>
+                <label for="hotelId"> hotelId : </label><br>
+                <input type="number" id="hotelId" [(ngModel)]="productUpdateval.hotelId" [ngModelOptions]="{standalone: true}"><br>
+                <label for="staffName"> staffName : </label><br>
+                <input type="text" id="staffName" [(ngModel)]="productUpdateval.staffName" [ngModelOptions]="{standalone: true}"><br>
+                <label for="staffemail"> staffemail : </label><br>
+                <input type="email" id="staffemail" [(ngModel)]="productUpdateval.staffemail" [ngModelOptions]="{standalone: true}"><br>
+                <label for="staffPassword"> staffPassword : </label><br>
+                <input id="staffPassword" type="text" [(ngModel)]="productUpdateval.staffPassword" [ngModelOptions]="{standalone: true}"><br> <br>
+                
+                <!-- <input type="submit" value="Submit" /> -->
+                <button type="button" (click)="Updatestaffbyid()">Update hotel</button>
+            </form>
+            
+            <!-- <form [formGroup]="staform" (ngSubmit)="Updatestaffbyid()">
+                <div class="form-group">
+                    <label for="staffId"> staffId : </label><br>
+                    <input type="number" id="staffId" name="staffId" [(ngModel)]="staffId">
+                </div>
+                <div class="form-group">
+                    <label for="hotelId"> hotelId : </label><br>
+                    <input type="number" id="hotelId" [(ngModel)]="productUpdateval.hotelId"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="staffName"> staffName : </label><br>
+                    <input type="text" id="staffName" [(ngModel)]="productUpdateval.staffName"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="staffemail"> staffemail : </label><br>
+                    <input id="staffemail" type="number" [(ngModel)]="productUpdateval.staffemail"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="staffPassword"> staffPassword : </label><br>
+                    <input id="staffPassword" type="number" [(ngModel)]="productUpdateval.staffPassword"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                
+                <br>
+                <div class="form-group">
+                    <button type="submit" value="Update" class="btn btn-warning ok">Update</button>
+                    <button type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/optionsowner/staff']">Back</button>
+                </div>
+    
+            </form> -->
+        </div>
+        <div class="row">
+            <table class="tables">
+
+                <thead>
+                    <tr>
+                        <th>Staff Id</th>
+                        <th>Hotel id</th>
+                        <th>Staff Name</th>
+                        <th>Staff Email</th>
+                        <th>Staff Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngFor="let item of Hotl">
+                        <tr>
+                            <td>{{item.staffId}}</td>
+                            <td>{{item.hotelId}}</td>
+                            <td>{{item.staffName}}</td>
+                            <td>{{item.staffemail}}</td>
+                            <td>{{item.staffPassword}}</td>
+                    </ng-container>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

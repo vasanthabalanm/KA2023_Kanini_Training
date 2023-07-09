@@ -1,0 +1,44 @@
+<div class="containers">
+    <!-- to overlay the bg color to dim light -->
+    <div class="rect1">
+        <header>
+            <nav>
+                <ul>
+                  <!-- hotel logo -->
+                    <div class="logo">
+                        <div><a [routerLink]="['']" ><img src="../../assets/images/logo_icons/Hotelogo.png"></a></div>
+                        <div><p class="title">HotelApi</p></div>
+                    </div>
+                    <!-- nav bars -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#footers">Contact</a></li>
+                    <li><a [routerLink]="['owner']" >Log-in/sigun-up</a></li>
+
+                    <!-- social media icons with links -->
+                    <div class="social-icons">
+                        <a href="https://twitter.com/i/flow/login" target="_blank" ><img src="../../assets/images/logo_icons/bird.png"  ></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="../../assets/images/logo_icons/facebook.png"  ></a>
+                        <a href="https://myaccount.google.com/" target="_blank"><img src="../../assets/images/logo_icons/google.png"  ></a>
+                        <a href="https://in.linkedin.com/" target="_blank"><img src="../../assets/images/logo_icons/linkedin.png" ></a>
+                    </div>
+                </ul>
+                
+            </nav>
+            <!-- welcome content -->
+            <main>
+                <p class="welcme">Welcome!</p>
+                <p>"Where Hospitality Meets Comfort and Luxury."</p>
+            </main>
+            <!-- bredcrumb for navigate pages -->
+            <div class="containar">
+              <nav aria-label="breadcrumb" class="bredcrub">
+                <ol class="breadcrumb bred px-2">
+                  <li class="breadcrumb-item "><a [routerLink]="['']"  class="homes">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Content</li>
+                </ol>
+              </nav>
+            </div>
+        </header>
+    </div>
+</div>

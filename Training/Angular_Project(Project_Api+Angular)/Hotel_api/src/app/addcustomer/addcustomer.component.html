@@ -1,0 +1,53 @@
+<div class="section">
+    <div class="box1">
+    
+    </div>
+
+    <div class="box2">
+        <form [formGroup]="custform" (ngSubmit)="addcust()">
+            <div class="form-group" >
+                <label for="customerId"> customerId : </label>
+                <input type="number" id="customerId" class="form-control"
+                name="customerId" formControlName="customerId">
+            </div>
+           
+            <div class="form-group" >
+                <label for="customerName"> customerName : </label>
+                <input type="text" id="customerName" class="form-control"
+                name="customerName" formControlName="customerName">
+            </div>
+            <div class="form-group" >
+                <label for="customerEmail"> customerEmail : </label>
+                <input type="email" id="customerEmail" class="form-control"
+                name="customerEmail" formControlName="customerEmail">
+            </div>
+            <div class="form-group" >
+                <label for="customerPhone">customerPhone : </label>
+                <input type="number" id="customerPhone" class="form-control"
+                name="customerPhone" formControlName="customerPhone">
+            </div>
+            <div class="form-group" >
+                <label for="customerCity">customerCity : </label>
+                <input type="text" id="customerCity" class="form-control"
+                name="customerCity" formControlName="customerCity">
+            </div>
+            <div class="form-group" >
+                <label for="customerCount">customerCount : </label>
+                <input type="number" id="customerCount" class="form-control"
+                name="customerCount" formControlName="customerCount">
+            </div>
+            
+            <br>
+            <div class="form-group" >
+                <input type="submit" value="Book" class="btn btn-warning ok"[routerLink]="['addbook']">
+                <input type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/hotelstaffs/customerdetails']">
+
+            </div>
+            
+        </form>
+    </div>
+
+</div>
+
+    
+

@@ -1,0 +1,55 @@
+<div class="containers">
+    <!-- to overlay the bg color to dim light -->
+    <div class="rect1">
+        <header>
+            <nav>
+                <ul>
+                  <!-- hotel logo -->
+                    <div class="logo">
+                        <div><a [routerLink]="['sigin']" ><img src="../../assets/images/logo_icons/Hotelogo.png"></a></div>
+                        <div><p class="title">HotelApi</p></div>
+                    </div>  
+                </ul>
+                
+            </nav>
+            <div class="d-flex justify-content-evenly pt-5">
+                <div class="rect2">
+                    <img src="../../assets/images/operations/add.svg" class="add py-4"><br> <a class="names" [routerLink]="['addbookings']">cust booking</a>
+                </div>
+                <div class="rect2">
+                    <img src="../../assets/images/operations/update.svg" class="add  py-3"><br> <a class="names"[routerLink]="['updatebookings']">booking update</a>
+                </div>
+                <div class="rect2">
+                    <img src="../../assets/images/operations/delete.svg" class="adds  py-3"><br> <br><a class="named"[routerLink]="['deletebookings']">Delete booking</a>
+                </div>
+                
+            </div>
+            
+              
+        </header>
+    </div>
+</div>
+<hr>
+<div class="container py-4">
+    <p class="text-center display-5 heading">CUSTOMER BOOKING INFORMATION</p>
+    <table>
+        
+        <thead >
+            <tr >
+                <th>Booking Id</th>
+                <th>Room id</th>
+                <th>Customer Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let item of books">
+                <tr >
+                <td>{{item.bookingId}}</td>
+                <td>{{item.roomId}}</td>
+                <td>{{item.customerId}}</td>
+            </tr>
+            </ng-container>
+            
+        </tbody>
+    </table>
+</div>

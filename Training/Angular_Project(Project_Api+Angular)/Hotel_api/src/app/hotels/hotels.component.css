@@ -1,0 +1,104 @@
+.containers {
+    background-image: url('../../assets/images/facility/luxry1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+  }
+  
+  
+  
+  .logo {
+    display: flex;
+    color: white;
+  }
+  .title{
+    margin-top: 2px;
+    padding: 10px;
+  }
+  thead{
+    border: 1px solid black;
+
+  }
+  .logo img {
+    height: 50px;
+  }
+  
+  .container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+  }
+  
+  .container th,
+  .container td {
+    padding: 8px;
+  }
+  
+  .container tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  .container tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+  .container table {
+    background-color: #f5f5f5;
+  }  
+  .heading{
+    font-weight: bold;
+    color:#A3864C;
+  }
+  .rect2{
+    width: 300px;
+    height: 436px;
+    background:rgb(255, 255, 255);
+    border-radius: 57px;
+  }
+  .add{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  .adds{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 120px;
+  }
+  .names{
+    font-size: 20px;
+    margin-left: 70px;
+    text-decoration: none;
+    color: #A3864C;
+    padding: 15px;
+  }
+  .names:hover{
+    background-color: #A3864C;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .named{
+    margin-left: 70px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #A3864C;
+    padding: 15px;
+  }
+  .named:hover{
+    background-color: #A3864C;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+  

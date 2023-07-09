@@ -1,0 +1,300 @@
+<body>
+  <app-header></app-header>
+  <!--   ---------------------------------check avilability-----------------------------------------  -->
+  <div>
+    <!-- check the availability by user -->
+    <div class="container">
+      <div class="rect2">
+        <form (ngSubmit)="handleSubmit($event)" class="forms">
+          <div class="combine">
+            <div>
+              <input type="text" [(ngModel)]="searchTerm" [ngModelOptions]="{standalone: true}"
+                (input)="searchLocations()" [placeholder]="placeholderText" class="loctions"
+                style="margin-right: 50px;margin-left: 21px;">
+              <div class="location-dropdown" *ngIf="showDropdown ">
+                <ul>
+                  <li *ngFor="let location of filteredLocations" (click)="selectLocation(location)">{{ location }}</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- min and max price -->
+            <input type="number" [(ngModel)]="minPrice" [ngModelOptions]="{standalone: true}"
+              (input)="filterLocations()" placeholder="Minimum Price in(₹)" style="margin-right: 50px;" class="loction">
+            <input type="number" [(ngModel)]="maxPrice" [ngModelOptions]="{standalone: true}"
+              (input)="filterLocations()" placeholder="Maximum Price in(₹)" style="margin-right: 50px;" class="loction">
+            <button type="submit" class="check" [routerLink]="['custo']">Check</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------------------section 1------------------------------------------------------ -->
+  <section class="sec2" id="about">
+    <p class="head1">Luxury Rooms</p>
+    <div class="row rows2">
+      <div class="col img3" id="img">
+        <img src="../../assets/images/facility/longstay.jpg" class="img1">
+      </div>
+      <div class="col cols22 px-4">
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="p px-2"> Reviews</span>
+        </div>
+        <p class="headr1">Luxury Super Delux</p>
+        <p class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sapiente fugit alias,
+          obcaecati, et reiciendis eligendi ratione, exercitationem dolor debitis a quasi tenetur quisquam velit.
+          Exercitationem ducimus quibusdam tempore distinctio?</p>
+        <p class="para2">Starts from : <span class="rupees">₹ 300 </span> / NIGHT</p>
+        <table style=" width: 50%;">
+          <td class="options">
+            <tr>STATUS</tr>
+            <tr>PAYMENT</tr>
+            <tr>GUEST</tr>
+            <tr>BEDS</tr>
+          </td>
+          <td>
+            <tr>: Available</tr>
+            <tr>: 30% advanced</tr>
+            <tr>: 3</tr>
+            <tr>: 2</tr>
+          </td>
+        </table>
+
+        <div class="rect21"><a href="" class="book">
+            <p class="para21" >BOOK NOW</p>
+          </a> </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------------------section 2------------------------------------------------------ -->
+
+  <section class="sec3">
+    <p class="head2">Family Rooms</p>
+    <div class="row rows2">
+      <div class="col cols222 px-4">
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="p px-2"> Reviews</span>
+        </div>
+        <p class="headr2">Simple Family Rooms</p>
+        <p class="para2221">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sapiente fugit alias,
+          obcaecati, et reiciendis eligendi ratione, exercitationem dolor debitis a quasi tenetur quisquam velit.
+          Exercitationem ducimus quibusdam tempore distinctio?</p>
+        <p class="para2222">Starts from : <span class="rupees">₹ 300 </span> / NIGHT</p>
+        <table style=" width: 50%;">
+          <td class="options">
+            <tr>STATUS</tr>
+            <tr>PAYMENT</tr>
+            <tr>GUEST</tr>
+            <tr>BEDS</tr>
+          </td>
+          <td>
+            <tr>: Available</tr>
+            <tr>: 30% advanced</tr>
+            <tr>: 3</tr>
+            <tr>: 2</tr>
+          </td>
+        </table>
+
+        <div class="rect221"><a href="" class="book">
+            <p class="para221">BOOK NOW</p>
+          </a> </div>
+
+      </div>
+      <div class="col img3" id="img1">
+        <img src="../../assets/images/facility/family.jpg" class="img2">
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------------------section 3------------------------------------------------------ -->
+
+  <section class="sec2" id="about">
+    <p class="head1">Single Rooms</p>
+    <div class="row rows2">
+      <div class="col img3" id="img2">
+        <img src="../../assets/images/facility/homebgtop.jpg" class="img1">
+      </div>
+      <div class="col cols22 px-4">
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="p px-2"> Reviews</span>
+        </div>
+        <p class="headr1">Single Simple Delux</p>
+        <p class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sapiente fugit alias,
+          obcaecati, et reiciendis eligendi ratione, exercitationem dolor debitis a quasi tenetur quisquam velit.
+          Exercitationem ducimus quibusdam tempore distinctio?</p>
+        <p class="para2">Starts from : <span class="rupees">₹ 300 </span> / NIGHT</p>
+        <table style=" width: 50%;">
+          <td class="options">
+            <tr>STATUS</tr>
+            <tr>PAYMENT</tr>
+            <tr>GUEST</tr>
+            <tr>BEDS</tr>
+          </td>
+          <td>
+            <tr>: Available</tr>
+            <tr>: 30% advanced</tr>
+            <tr>: 3</tr>
+            <tr>: 2</tr>
+          </td>
+        </table>
+
+        <div class="rect21"><a href="" class="book">
+            <p class="para21">BOOK NOW</p>
+          </a> </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------------------section 4------------------------------------------------------ -->
+
+  <section class="sec3 py-4">
+    <p class="head2">Luxury Family Rooms</p>
+    <div class="row rows2">
+      <div class="col cols222 px-4">
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="p px-2"> Reviews</span>
+        </div>
+        <p class="headr2">Luxury Family Rooms</p>
+        <p class="para2221">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sapiente fugit alias,
+          obcaecati, et reiciendis eligendi ratione, exercitationem dolor debitis a quasi tenetur quisquam velit.
+          Exercitationem ducimus quibusdam tempore distinctio?</p>
+        <p class="para2222">Starts from : <span class="rupees">₹ 300 </span> / NIGHT</p>
+        <table style=" width: 50%;">
+          <td class="options">
+            <tr>STATUS</tr>
+            <tr>PAYMENT</tr>
+            <tr>GUEST</tr>
+            <tr>BEDS</tr>
+          </td>
+          <td>
+            <tr>: Available</tr>
+            <tr>: 30% advanced</tr>
+            <tr>: 3</tr>
+            <tr>: 2</tr>
+          </td>
+        </table>
+
+        <div class="rect221"><a href="" class="book">
+            <p class="para221">BOOK NOW</p>
+          </a> </div>
+
+      </div>
+      <div class="col img3" id="img3">
+        <img src="../../assets/images/facility/luxry1.jpg" class="img2">
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------------------section 5------------------------------------------------------ -->
+
+  <section id="services">
+    <p class="head2 text-center">Services</p>
+
+    <marquee behavior="scroll" direction="right">
+      <div class="container branch py-5">
+        <div class="row">
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/chennai_blue.svg" class="pt-4">
+                <p>Chennai</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/bangalore.svg" class="pt-4">
+                <p>Banglore</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/coimbatore.svg" class="pt-4">
+                <p>Coimbatore</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/delhi.svg" class="pt-4">
+                <p>Delhi</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/hyderabad.svg" class="pt-4">
+                <p>Hyderabad</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1 ">
+                <img src="../../assets/images/location/mumbai.svg" class="pt-4">
+                <p>Mumbai</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/noida.svg" class="pt-4">
+                <p>Noida</p>
+              </a>
+            </div>
+          </div>
+          <div class="col c1">
+            <div class="cty1">
+              <a href="" class="card1">
+                <img src="../../assets/images/location/pune.svg" class="pt-4">
+                <p class>Pune</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </marquee>
+
+  </section>
+<!-- filter option by dropdown -->
+  <!-- <div>
+    <input type="text" [(ngModel)]="searchTerm" (input)="onInputChange()" placeholder="Enter a specialty">
+    <ul *ngIf="showSuggestions">
+    <li *ngFor="let suggestion of filterSuggestions()" (click)="selectAndFilterSuggestion(suggestion)">{{ suggestion }}</li>
+    </ul>
+    <button (click)="submit()">Submit</button>
+
+
+
+</div> -->
+  <app-footer></app-footer>
+
+</body>

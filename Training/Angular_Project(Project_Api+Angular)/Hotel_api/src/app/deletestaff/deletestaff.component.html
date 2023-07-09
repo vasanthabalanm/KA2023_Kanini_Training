@@ -1,0 +1,46 @@
+<div class="section">
+    <div class="box1">
+    
+    </div>
+
+    <div class="box2">
+        <form  (ngSubmit)="deleteStaffById()">
+            <div class="form-group" >
+                <label for="staffId"> staffId : </label><br>
+                <input type="number" [(ngModel)]="staffId" name="staffId" placeholder="Enter staff id" > 
+            </div>
+            <br>
+            <div class="form-group" >
+                <input type="submit" value="Delete" class="btn btn-warning ok">
+                <input type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/optionsowner/staff']">
+
+            </div>        
+        </form>
+        
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Staff Id</th>
+                        <th>Hotel id</th>
+                        <th>Staff Name</th>
+                        <th>Staff Email</th>
+                        <th>Staff Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngFor="let item of Hotl">
+                        <tr>
+                            <td>{{item.staffId}}</td>
+                            <td>{{item.hotelId}}</td>
+                            <td>{{item.staffName}}</td>
+                            <td>{{item.staffemail}}</td>
+                            <td>{{item.staffPassword}}</td>
+                    </ng-container>
+
+                </tbody>
+            </table>
+        
+    </div>
+
+</div>

@@ -1,0 +1,51 @@
+<div class="section">
+    <div class="box1">
+    
+    </div>
+
+    <div class="box2">
+        <form [formGroup]="hotlform" (ngSubmit)="Addhotels()">
+            <div class="form-group" >
+                <label for="hotelId" class="lable"> hotelId : </label> <br>
+                <input type="text" id="hotelId" class="form-control"
+                name="hotelId" formControlName="hotelId">
+            </div>
+            <div class="form-group" >
+                <label for="hotelName"> hotelName : </label>
+                <input type="text" id="hotelName" class="form-control"
+                name="hotelName" formControlName="hotelName">
+            </div>
+            <div class="form-group" >
+                <label for="hotelDescription"> hotelDescription : </label>
+                <input type="text" id="hotelDescription" class="form-control"
+                name="hotelDescription" formControlName="hotelDescription">
+            </div>
+            <div class="form-group" >
+                <label for="hotelRoomPrice">hotelRoomPrice : </label>
+                <input type="text" id="hotelRoomPrice" class="form-control"
+                name="hotelRoomPrice" formControlName="hotelRoomPrice">
+            </div>
+            <div class="form-group" >
+                <label for="hotelRoomsAvailable">hotelRoomsAvailable : </label>
+                <input type="text" id="hotelRoomsAvailable" class="form-control"
+                name="hotelRoomsAvailable" formControlName="hotelRoomsAvailable">
+            </div>
+            <div class="form-group" >
+                <label for="hotelLocation">hotelLocation: </label>
+                <input type="text" id="hotelLocation" class="form-control"
+                name="hotelLocation" formControlName="hotelLocation">
+            </div>
+            <br>
+            <div class="form-group" >
+                <input type="submit" value="Add" class="btn btn-warning ok">
+                <input type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/optionsowner/hotel']">
+
+            </div>
+            
+        </form>
+    </div>
+
+</div>
+
+    
+

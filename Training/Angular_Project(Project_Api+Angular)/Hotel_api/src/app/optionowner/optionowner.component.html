@@ -1,0 +1,46 @@
+<div class="containers">
+    <!-- to overlay the bg color to dim light -->
+    <div class="rect1">
+        <header>
+            <nav>
+                <ul>
+                  <!-- hotel logo -->
+                    <div class="logo">
+                        <div><a [routerLink]="['']" ><img src="../../assets/images/logo_icons/Hotelogo.png"></a></div>
+                        <div><p class="title">HotelApi</p></div>
+                    </div>
+                   
+
+                    <!-- social media icons with links -->
+                    <div class="social-icons">
+                        <a href="https://twitter.com/i/flow/login" target="_blank" ><img src="../../assets/images/logo_icons/bird.png"  ></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="../../assets/images/logo_icons/facebook.png"  ></a>
+                        <a href="https://myaccount.google.com/" target="_blank"><img src="../../assets/images/logo_icons/google.png"  ></a>
+                        <a href="https://in.linkedin.com/" target="_blank"><img src="../../assets/images/logo_icons/linkedin.png" ></a>
+                    </div>
+                </ul>
+                
+            </nav>
+            <!-- welcome content -->
+            <main>
+                
+					<div class="combines">
+						<div class="desc px-5">
+							<i>"Exercise caution and gentleness when dealing with delicate matters."</i>
+						</div>
+						<div class="rect2">
+							<a [routerLink]="['/owner']" class="close"><span>&times;</span></a>
+							<div >
+								<button class="owner"[routerLink]="['hotel']" ><img src="../../assets/images/logo_icons/admin.png" class="px-2">Hotel Info</button>
+							</div>
+							<div>
+								<button class="hotelstaff" [routerLink]="['staff']"><img src="../../assets/images/logo_icons/owner.png"  class="px-2">Add staff</button>
+							</div>
+						</div>
+					</div>
+				
+            </main>
+            
+        </header>
+    </div>
+</div>

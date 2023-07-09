@@ -1,0 +1,150 @@
+<app-header></app-header>
+<section id="services">
+    <p class="head2 text-center">Services</p>
+    <div class="container branch py-5">
+        <div class="row">
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/chennai_blue.svg" class="pt-4">
+                        <p>Chennai</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/bangalore.svg" class="pt-4">
+                        <p>Banglore</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/coimbatore.svg" class="pt-4">
+                        <p>Coimbatore</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/delhi.svg" class="pt-4">
+                        <p>Delhi</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/hyderabad.svg" class="pt-4">
+                        <p>Hyderabad</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1 ">
+                        <img src="../../assets/images/location/mumbai.svg" class="pt-4">
+                        <p>Mumbai</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/noida.svg" class="pt-4">
+                        <p>Noida</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col c1">
+                <div class="cty1">
+                    <a href="" class="card1">
+                        <img src="../../assets/images/location/pune.svg" class="pt-4">
+                        <p class>Pune</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+ <section class="sec1" id="home">
+        
+          
+        <div class="combine">
+            <div class="col">
+                <div class="ip">
+                    <h2 class="sec1hd">"Beautiful <span class="idr">Living</span>. Made <span class="idr">Easy</span>"
+                    </h2> <br><br>
+                    <div>
+                        <form class="px-5 ">
+                            <label for="location">Location:</label><br>
+                            <input type="text" [(ngModel)]="location" name="location" id="location" class="inp"><br>
+                        
+                            <label for="minprice">Minimum Price(₹):</label><br>
+                            <input type="number" [(ngModel)]="minprice" name="minprice" id="minprice"class="inp"><br>
+                        
+                            <label for="maxprice">Maximum Price(₹):</label><br>
+                            <input type="number" [(ngModel)]="maxprice" name="maxprice" id="maxprice"class="inp"><br> <br>
+                        
+                            <button type="button" (click)="searchHotels()" class="button">Search</button>
+                        </form>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col ">
+                <div class="crl2" ></div>
+                <div class="crl1">
+                    <img src="../../assets/images/customer_page/banner.png" class="float-end pt-5">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+<section>
+    <div class=" px-5 py-5 combine">
+        <div><img src="../../assets/images/customer_page/findEasy.png" class="float-start"></div>
+        <div class="py-5"><table>
+    
+            <thead>
+                <tr>
+                    <th>Hotel Id</th>
+                    <th>Hotel Name</th>
+                    <th>Hotel Description</th>
+                    <th>Hotel Room Price</th>
+                    <th>Hotel Room Available</th>
+                </tr>
+            </thead>
+            <tbody>
+                <ng-container *ngFor="let item of hotels">
+                    <tr>
+                        <td>{{item.hotelId}}</td>
+                        <td>{{item.hotelName}}</td>
+                        <td>{{item.hotelDescription}}</td>
+                        <td>{{item.hotelRoomPrice}}</td>
+                        <td>{{item.hotelRoomsAvailable}}</td>
+                    </tr>
+                </ng-container>
+    
+            </tbody>
+        </table></div>
+         
+        
+    </div>
+</section>
+
+<app-footer></app-footer>
+
+<!-- Display the hotel details
+  <ul>
+    <li *ngFor="let hotel of hotels">
+      {{ hotel.hotelName }}, {{ hotel.hotelDescription }}, {{ hotel.hotelRoomsAvailable }}
+    </li>
+  </ul> -->

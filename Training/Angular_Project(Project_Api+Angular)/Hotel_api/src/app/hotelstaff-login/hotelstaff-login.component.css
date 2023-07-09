@@ -1,0 +1,153 @@
+.containers {
+    background-image: url('../../assets/images/facility/luxry1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .title {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  main {
+    margin-top: 70px;
+    padding: auto;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  
+    .welcme {
+        font-size: 40px;
+    }
+  
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 22px;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+  
+  }
+  
+  nav ul li a:hover {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .containar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bredcrub {
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 15px;
+  }
+  .combines{
+    display: flex;
+  }
+  
+  .bred {
+    margin-top: 9px;
+    margin-left: 5px;
+  }
+  
+  
+  /* sigin(/)signup */
+  
+  .desc{
+    text-align: justify;
+    background-color: none;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .rect2{
+    margin-left: 830px;
+    position: absolute;
+    width: 333px;
+    height: 436px;
+    background: rgb(255, 255, 255,60%);
+    border-radius: 57px;
+    .close{
+      color: white;
+      text-decoration: none;
+      font-size: 50px;
+      margin-left: 170px;
+    }
+    .owner{
+      margin-top: 72px;
+      border-style: none;
+      background-color: #A3864C;
+      color: white;
+      border-radius: 15px;
+      width: 50%;
+      height: 50px;
+      font-size: 20px;
+    }
+    .owner:hover{
+      background-color: #A3864C;
+      color: black;
+      border: 2px solid white;
+    }
+    .hotelstaff{
+      border-style: none;
+      border-color:  rgb(217, 217, 217,60%);
+      border-radius: 15px;    
+      width: 50%;
+      height: 50px;
+      margin-top: 30px;
+      font-size: 20px;
+    }
+    .hotelstaff:hover{
+      background-color: #A3864C;
+      color: white;
+      border: 2px solid white;
+  
+    }
+  }
+  
+  

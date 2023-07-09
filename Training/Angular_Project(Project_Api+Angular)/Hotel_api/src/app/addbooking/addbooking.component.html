@@ -1,0 +1,36 @@
+<div class="section">
+    <div class="box1">
+    
+    </div>
+
+    <div class="box2">
+        <form [formGroup]="bookingform" (ngSubmit)="Addbook()">
+            <div class="form-group" >
+                <label for="bookingId" class="lable"> bookingId : </label> <br>
+                <input type="text" id="bookingId" class="form-control"
+                name="bookingId" formControlName="bookingId">
+            </div>
+            <div class="form-group" >
+                <label for="roomId"> roomId : </label>
+                <input type="text" id="roomId" class="form-control"
+                name="roomId" formControlName="roomId">
+            </div>
+            <div class="form-group" >
+                <label for="customerId"> customerId : </label>
+                <input type="text" id="customerId" class="form-control"
+                name="customerId" formControlName="customerId">
+            </div>
+            
+            <div class="form-group" >
+                <input type="submit" value="Add" class="btn btn-warning ok" >
+                <input type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/hotelstaffs/customerdetails/addcust']">
+
+            </div>
+            
+        </form>
+    </div>
+
+</div>
+
+    
+

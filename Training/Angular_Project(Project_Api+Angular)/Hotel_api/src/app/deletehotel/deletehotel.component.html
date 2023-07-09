@@ -1,0 +1,83 @@
+<div class="section">
+    <div class="box1">
+    
+    </div>
+
+    <div class="box2">
+        <form  (ngSubmit)="deleteStudentById()">
+            <div class="form-group" >
+                <label for="hotelId"> hotelId : </label><br>
+                <input type="text" [(ngModel)]="hotelId" name="hotelId" placeholder="Enter Hotel id" > 
+            </div>
+            <br>
+            <div class="form-group" >
+                <input type="submit" value="Delete" class="btn btn-warning ok">
+                <input type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/optionsowner/hotel']">
+
+            </div>        
+        </form>
+        <table>
+        
+            <thead >
+                <tr >
+                    <th>Hotel Id</th>
+                    <th>Hotel Name</th>
+                    <th>Hotel Description</th>
+                    <th>Hotel Room Price</th>
+                    <th>Hotel Room Available</th>
+                    <th>Hotel Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <ng-container *ngFor="let item of Hotl">
+                    <tr >
+                    <td>{{item.hotelId}}</td>
+                    <td>{{item.hotelName}}</td>
+                    <td>{{item.hotelDescription}}</td>
+                    <td>{{item.hotelRoomPrice}}</td>
+                    <td>{{item.hotelRoomsAvailable}}</td>
+                    <td>{{item.hotelLocation}}</td>
+                </tr>
+                </ng-container>
+                
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+    
+
+
+
+
+<!-- 
+    get by id
+    <div *ngIf="hotelid">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Hotel Id</th>
+                <th scope="col">Hotel Name</th>
+                <th scope="col">Hotel Description</th>
+                <th scope="col">Hotel Room Price</th>
+                <th scope="col">Hotel Room Available</th>
+                <th scope="col">Hotel Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td>{{hotelid.hotelId}}</td>
+                <td>{{hotelid.hotelName}}</td>
+                <td>{{hotelid.hotelDescription}}</td>
+                <td>{{hotelid.hotelRoomPrice}}</td>
+                <td>{{hotelid.hotelRoomsAvailable}}</td>
+                <td>{{hotelid.hotelLocation}}</td>
+
+
+            </tr>
+    
+        </tbody>
+    </table>
+    
+</div> -->

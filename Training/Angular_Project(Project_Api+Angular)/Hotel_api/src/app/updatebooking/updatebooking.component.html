@@ -1,0 +1,45 @@
+<div class="section">
+    <div class="box1">
+
+    </div>
+
+    <div class="box2">
+        <div class="row px-3 rows">
+            <form >
+                <label for="bookingId"> bookingId : </label><br>
+                <input type="number" id="bookingId" name="bookingId" [(ngModel)]="bookingId" > <br>
+                <label for="roomId"> roomId : </label><br>
+                <input type="number" id="roomId" [(ngModel)]="updatebooks.roomId" [ngModelOptions]="{standalone: true}"><br>
+                <label for="customerId"> customerId : </label><br>
+                <input type="number" id="customerId" [(ngModel)]="updatebooks.customerId" [ngModelOptions]="{standalone: true}"><br>
+                <button type="button" (click)="Updatebookbyid()">Update cust</button>
+    
+            </form>
+        </div>
+        <div class="row">
+            <table class="tables">
+
+                <thead >
+                    <tr >
+                        <th>bookingId</th>
+                        <th>roomId</th>
+                        <th>customerId</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngFor="let item of bookdet">
+                        <tr >
+                        <td>{{item.bookingId}}</td>
+                        <td>{{item.roomId}}</td>
+                        <td>{{item.customerId}}</td>
+                        
+                    </tr>
+                    </ng-container>
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

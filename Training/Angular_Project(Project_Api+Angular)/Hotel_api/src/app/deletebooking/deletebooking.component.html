@@ -1,0 +1,44 @@
+<div class="section">
+    <div class="box1">
+    
+    </div>
+
+    <div class="box2">
+        <form  (ngSubmit)="deletebkById()">
+            <div class="form-group" >
+                <label for="bookingId"> bookingId : </label><br>
+                <input type="number" [(ngModel)]="bookingId" name="bookingId" placeholder="Enter booking id" > 
+            </div>
+            <br>
+            <div class="form-group" >
+                <input type="submit" value="Delete" class="btn btn-warning ok">
+                <input type="submit" value="Back" class="btn btn-dark oks" [routerLink]="['/owner/hotelstaffs/cusbooking/']">
+
+            </div>        
+        </form>
+        
+            <table>
+
+                <thead >
+                    <tr >
+                        <th>bookingId</th>
+                        <th>roomId</th>
+                        <th>customerId</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngFor="let item of books">
+                        <tr >
+                        <td>{{item.bookingId}}</td>
+                        <td>{{item.roomId}}</td>
+                        <td>{{item.customerId}}</td>
+                        
+                    </tr>
+                    </ng-container>
+                    
+                </tbody>
+            </table>
+        
+    </div>
+
+</div>

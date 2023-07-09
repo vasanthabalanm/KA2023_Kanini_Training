@@ -1,0 +1,22 @@
+.foter {
+    
+    width: 100%;
+    background: #18140B;
+    .logo{
+        display: flex;
+        .title{
+            margin-top: 40px;
+            margin-left: 12px;
+        }
+    }
+    .fotr{
+        color: #ffffff;
+    }
+    .col a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .copyryt{
+        font-size: 12px;
+    }
+}

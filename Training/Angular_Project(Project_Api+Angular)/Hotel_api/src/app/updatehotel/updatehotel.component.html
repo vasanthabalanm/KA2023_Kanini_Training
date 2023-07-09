@@ -1,0 +1,109 @@
+<div class="section">
+    <div class="box1">
+
+    </div>
+
+    <div class="box2">
+        <div class="row px-3 rows">
+            <form>
+                <label for="hotelId"> hotelId : </label><br>
+                <input type="number" id="hotelId" name="hotelId" [(ngModel)]="hotelId" > <br>
+                <label for="hotelName"> hotelName : </label><br>
+                <input type="text" id="hotelName" [(ngModel)]="productUpdateval.hotelName" [ngModelOptions]="{standalone: true}"><br>
+                <label for="hotelDescription"> hotelDescription : </label><br>
+                <input type="text" id="hotelDescription" [(ngModel)]="productUpdateval.hotelDescription" [ngModelOptions]="{standalone: true}"><br>
+                <label for="hotelRoomPrice"> hotelRoomPrice : </label><br>
+                <input type="number" id="hotelRoomPrice" [(ngModel)]="productUpdateval.hotelRoomPrice" [ngModelOptions]="{standalone: true}"><br>
+                <label for="hotelRoomsAvailable"> hotelRoomsAvailable : </label><br>
+                <input id="hotelRoomsAvailable" type="number" [(ngModel)]="productUpdateval.hotelRoomsAvailable" [ngModelOptions]="{standalone: true}"><br>
+                <label for="hotelLocation"> hotelLocation : </label><br>
+                <input id="hotelLocation" type="text" [(ngModel)]="productUpdateval.hotelLocation" [ngModelOptions]="{standalone: true}"><br> <br>
+                <!-- <input type="submit" value="Submit" /> -->
+                <button type="button" (click)="UpdatehotelById()">Update hotel</button>
+            </form>
+            <!-- <form [formGroup]="hotlform" (ngSubmit)="UpdatehotelById()">
+                <div class="form-group">
+                    <label for="hotelId"> hotelId : </label><br>
+                    <input type="number" id="hotelId" name="hotelId" [(ngModel)]="hotelId"> <br>
+                    <label for="hotelName"> hotelName : </label><br>
+                    <input type="text" id="hotelName" [(ngModel)]="productUpdateval.hotelName"
+                        [ngModelOptions]="{standalone: true}"><br>
+                    <label for="hotelDescription"> hotelDescription : </label><br>
+                    <input type="text" id="hotelDescription" [(ngModel)]="productUpdateval.hotelDescription"
+                        [ngModelOptions]="{standalone: true}"><br>
+                    <label for="hotelRoomPrice"> hotelRoomPrice : </label><br>
+                    <input id="" type="number" [(ngModel)]="productUpdateval.hotelRoomPrice"
+                        [ngModelOptions]="{standalone: true}"><br>
+                    <label for="hotelRoomsAvailable"> hotelRoomsAvailable : </label><br>
+                    <input id="" type="number" [(ngModel)]="productUpdateval.hotelRoomsAvailable"
+                        [ngModelOptions]="{standalone: true}"><br>
+                    <label for="hotelLocation"> hotelLocation : </label><br>
+                    <input id="" type="text" [(ngModel)]="productUpdateval.hotelLocation"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                 <div class="form-group">
+                    <label for="hotelName"> hotelName : </label><br>
+                    <input type="text" id="hotelName" [(ngModel)]="productUpdateval.hotelName"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="hotelDescription"> hotelDescription : </label><br>
+                    <input type="text" id="hotelDescription" [(ngModel)]="productUpdateval.hotelDescription"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="hotelRoomPrice"> hotelRoomPrice : </label><br>
+                    <input id="" type="number" [(ngModel)]="productUpdateval.hotelRoomPrice"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="hotelRoomsAvailable"> hotelRoomsAvailable : </label><br>
+                    <input id="" type="number" [(ngModel)]="productUpdateval.hotelRoomsAvailable"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="hotelLocation"> hotelLocation : </label><br>
+                    <input id="" type="text" [(ngModel)]="productUpdateval.hotelLocation"
+                        [ngModelOptions]="{standalone: true}">
+                </div>
+                <br>
+                <div class="form-group"> 
+                    <button type="submit" value="Update" class="btn btn-warning ok">Update</button>
+                    <button type="submit" value="Back" class="btn btn-dark oks"
+                        [routerLink]="['/owner/optionsowner/hotel']">Back</button>
+                </div>
+
+            </form> -->
+        </div>
+        <div class="row">
+            <table class="tables">
+
+                <thead>
+                    <tr>
+                        <th>Hotel Id</th>
+                        <th>Hotel Name</th>
+                        <th>Hotel Description</th>
+                        <th>Hotel Room Price</th>
+                        <th>Hotel Room Available</th>
+                        <th>Hotel Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngFor="let item of Hotl">
+                        <tr>
+                            <td>{{item.hotelId}}</td>
+                            <td>{{item.hotelName}}</td>
+                            <td>{{item.hotelDescription}}</td>
+                            <td>{{item.hotelRoomPrice}}</td>
+                            <td>{{item.hotelRoomsAvailable}}</td>
+                            <td>{{item.hotelLocation}}</td>
+                        </tr>
+                    </ng-container>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
