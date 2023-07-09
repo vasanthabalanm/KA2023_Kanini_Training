@@ -1,0 +1,6 @@
+routing module:
+	->npx create-react-app routingmodule
+	->install npm i react-router-dom
+	->after installing copy(import {BrowserRouter,Rotes,Route,Link} from "react-router-dom")in app.js
+	-> create what re pages should be rendered , like(home,about,contact...)
+	->

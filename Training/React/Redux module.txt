@@ -1,0 +1,13 @@
+1:npx create-react-app reduxapplearn
+2.install both setup...
+	i)react-redux
+	ii)redux toolkit
+3.npm install react-redux
+4.npm install redux-toolkit or npm install @redux-js/toolkit
+5.then create a file a as store and reducer and contercomponent
+6.write store,reducer
+7.connection via counterslice export
+8.after write components, 
+9.create a store folder->reducer,store.jsx, extra create two more files as listslice,liststore
+10.creae counter folder ->only oaste component.jsx
+11.create listmaupulatoin ->list.jsx
