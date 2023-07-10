@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy
+namespace Command_Pattern
 {
-    internal interface IEmployeeDetailsStrategy
+    internal interface ICommand
     {
-        void DisplayDetails(Employee employee);
+        void Execute();
+        void Undo();
+
     }
 }

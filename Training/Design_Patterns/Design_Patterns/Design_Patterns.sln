@@ -13,6 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptor", "Adaptor\Adaptor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{2CBFA939-99EE-4561-9ACE-CAEADA43B4F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{8723D6A6-6950-41F4-92AF-11283B5486FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command_Pattern", "Command_Pattern\Command_Pattern.csproj", "{94A60685-784A-42AF-8272-823ED4F85D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA4F6656-510F-48A9-A5D9-E304B66768E3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +48,14 @@ Global
 		{2CBFA939-99EE-4561-9ACE-CAEADA43B4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBFA939-99EE-4561-9ACE-CAEADA43B4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBFA939-99EE-4561-9ACE-CAEADA43B4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8723D6A6-6950-41F4-92AF-11283B5486FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8723D6A6-6950-41F4-92AF-11283B5486FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8723D6A6-6950-41F4-92AF-11283B5486FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8723D6A6-6950-41F4-92AF-11283B5486FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A60685-784A-42AF-8272-823ED4F85D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A60685-784A-42AF-8272-823ED4F85D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A60685-784A-42AF-8272-823ED4F85D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A60685-784A-42AF-8272-823ED4F85D3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

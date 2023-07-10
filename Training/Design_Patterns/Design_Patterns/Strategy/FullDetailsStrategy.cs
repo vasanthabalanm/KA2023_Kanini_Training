@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    internal class FullDetailsStrategy
+    internal class FullDetailsStrategy : IEmployeeDetailsStrategy
     {
+        public void DisplayDetails(Employee employee)
+        {
+            Console.WriteLine($"Employee: {employee.Name}");
+            Console.WriteLine($"Department: {employee.Department}");
+            Console.WriteLine($"Position: {employee.Position}");
+            Console.WriteLine($"Salary: {employee.Salary}");
+        }
+
     }
 }

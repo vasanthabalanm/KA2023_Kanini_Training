@@ -1,0 +1,15 @@
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\bin\Debug\net7.0\Strategy.exe
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\bin\Debug\net7.0\Strategy.deps.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\bin\Debug\net7.0\Strategy.runtimeconfig.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\bin\Debug\net7.0\Strategy.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\bin\Debug\net7.0\Strategy.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.csproj.AssemblyReference.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.GeneratedMSBuildEditorConfig.editorconfig
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.AssemblyInfoInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.AssemblyInfo.cs
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.csproj.CoreCompileInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\refint\Strategy.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\Strategy.genruntimeconfig.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Strategy\obj\Debug\net7.0\ref\Strategy.dll
