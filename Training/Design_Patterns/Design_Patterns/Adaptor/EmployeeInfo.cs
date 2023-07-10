@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton
+namespace Adaptor
 {
-    public abstract  class Vehicle
+    internal class EmployeeInfo
     {
-        public abstract void Drive();
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory
 {
-    internal class Vehicle_Family_Factory
+    public abstract class Vehicle_Family_Factory
     {
+        public abstract Vehicle_Factory CreateCarFactory();
+        public abstract Vehicle_Factory CreateBikeFactory();
     }
 }
