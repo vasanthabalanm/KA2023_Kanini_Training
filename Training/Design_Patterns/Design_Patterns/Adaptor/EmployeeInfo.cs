@@ -8,5 +8,13 @@ namespace Adaptor
 {
     internal class EmployeeInfo
     {
+        public void PrintEmployeeDetails(IEmployeedetails employee)
+        {
+            Console.WriteLine("Employee Details:");
+            Console.WriteLine($"Name: {employee.GetName()}");
+            Console.WriteLine($"Position: {employee.GetPosition()}");
+            Console.WriteLine($"Salary: {employee.GetSalary()}");
+        }
+
     }
 }

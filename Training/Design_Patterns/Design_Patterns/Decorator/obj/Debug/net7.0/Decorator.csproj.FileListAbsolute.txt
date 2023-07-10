@@ -1,0 +1,15 @@
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\bin\Debug\net7.0\Decorator.exe
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\bin\Debug\net7.0\Decorator.deps.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\bin\Debug\net7.0\Decorator.runtimeconfig.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\bin\Debug\net7.0\Decorator.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\bin\Debug\net7.0\Decorator.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.csproj.AssemblyReference.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.AssemblyInfoInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.AssemblyInfo.cs
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.csproj.CoreCompileInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\refint\Decorator.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\Decorator.genruntimeconfig.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Design_Patterns\Design_Patterns\Decorator\obj\Debug\net7.0\ref\Decorator.dll

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Adaptor
 {
-    internal interface Interface1
+    internal interface IEmployeedetails
     {
+        string? GetName();
+        string? GetPosition();
+        decimal GetSalary();
+
     }
 }
