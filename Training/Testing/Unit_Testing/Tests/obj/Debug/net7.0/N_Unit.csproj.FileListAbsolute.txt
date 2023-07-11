@@ -1,0 +1,5 @@
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Testing\Unit_Testing\N_Unit\obj\Debug\net7.0\N_Unit.csproj.AssemblyReference.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Testing\Unit_Testing\N_Unit\obj\Debug\net7.0\N_Unit.GeneratedMSBuildEditorConfig.editorconfig
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Testing\Unit_Testing\N_Unit\obj\Debug\net7.0\N_Unit.AssemblyInfoInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Testing\Unit_Testing\N_Unit\obj\Debug\net7.0\N_Unit.AssemblyInfo.cs
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Testing\Unit_Testing\N_Unit\obj\Debug\net7.0\N_Unit.csproj.CoreCompileInputs.cache

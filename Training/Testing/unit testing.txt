@@ -1,0 +1,13 @@
+unit testing
+->n unit
+	-> create a two project in one solution
+	-> in one projrct we have,for ex in mathoperation.cs in one project , in that cs many operations are performed
+	-> open the other project, in that which file we have to test , we should use the filename+tests(plural)
+	->we are able to test only the bs logic, no driver code. 
+	->install nuget package
+		->nunit
+		->nunit3testadaptor
+		->microsoft.net.test.sdk
+	-> we need to add reference in the press ctrl+.
+	-> right click on testing project , click project reference, check box click mathoperation project then click ok
+ 
