@@ -21,9 +21,10 @@ namespace Tests
             Console.WriteLine("Setup");
         }
 
-
-        [Test]
-        [Order(2)]
+        //by using test report we are using the Testcae, so that report will contain all details 
+        [TestCase(Author ="name_of_the_author",Description ="Testing_Addmeathod")]
+        //[Test]
+        [Order(3)]
         public void Add_Tests()
         {
             Console.WriteLine("Add order check");
@@ -33,8 +34,13 @@ namespace Tests
             Assert.AreEqual(200,res);
         }
 
-        [Test]
-        [Order(3)]
+
+        //by avoiding test
+        //option 1: comment [test]
+        //[Test]
+        //option 2: 
+        [Ignore("in progress")]
+        [Order(2)]
         public void Sub_tests()
         {
             Console.WriteLine("sub order check");
