@@ -10,4 +10,8 @@ unit testing
 		->microsoft.net.test.sdk
 	-> we need to add reference in the press ctrl+.
 	-> right click on testing project , click project reference, check box click mathoperation project then click ok
+	->setup meathod
+	->teardown meathods
+	->order
+	-> we check these meathods are executed in run test(warning)
  
