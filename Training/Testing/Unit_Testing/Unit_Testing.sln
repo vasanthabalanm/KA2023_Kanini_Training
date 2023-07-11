@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathoperations", "Mathopera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{FE0639BC-EBE2-492F-8DFD-B66436367A18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation", "Calculation\Calculation.csproj", "{BA4FCD85-1CFD-460D-943B-FE1ED66C13B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FE0639BC-EBE2-492F-8DFD-B66436367A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0639BC-EBE2-492F-8DFD-B66436367A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE0639BC-EBE2-492F-8DFD-B66436367A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4FCD85-1CFD-460D-943B-FE1ED66C13B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4FCD85-1CFD-460D-943B-FE1ED66C13B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4FCD85-1CFD-460D-943B-FE1ED66C13B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4FCD85-1CFD-460D-943B-FE1ED66C13B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
