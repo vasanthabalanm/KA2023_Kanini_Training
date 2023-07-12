@@ -8,5 +8,9 @@ namespace Observer_Topic
 {
     internal interface IEmployeeSubject
     {
+        void Attach(IEmployeeObserver observer);
+        void Detach(IEmployeeObserver observer);
+        void Notify();
+
     }
 }

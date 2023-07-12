@@ -6,9 +6,9 @@
 
         EmployeeManager manager = new EmployeeManager();
 
-// Change department commands
-ICommand command1 = new ChangeDepartmentCommand(employee1, "IT");
-ICommand command2 = new ChangeDepartmentCommand(employee2, "Finance");
+        // Change department commands
+        ICommand command1 = new ChangeDepartmentCommand(employee1, "IT");
+        ICommand command2 = new ChangeDepartmentCommand(employee2, "Finance");
 
         manager.AddCommand(command1);
         manager.AddCommand(command2);

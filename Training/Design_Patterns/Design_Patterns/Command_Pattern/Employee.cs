@@ -11,7 +11,7 @@ namespace Command_Pattern
         public string? Name { get; set; }
         public string? Department { get; set; }
 
-        public void ChangeDepartment(string newDepartment)
+        public void ChangeDepartment(string? newDepartment)
         {
             Console.WriteLine($"Changing department of employee {Name} from {Department} to {newDepartment}");
             Department = newDepartment;

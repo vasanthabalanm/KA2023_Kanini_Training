@@ -1,0 +1,12 @@
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\bin\Debug\net7.0\Models.deps.json
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\bin\Debug\net7.0\Models.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\bin\Debug\net7.0\Models.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.csproj.AssemblyReference.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.AssemblyInfoInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.AssemblyInfo.cs
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.csproj.CoreCompileInputs.cache
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\refint\Models.dll
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\Models.pdb
+D:\bala\Kanini_Training_KA2023\KA2023_Kanini_Training\Training\Micro_services_Hotel\Micro_services_Practice\Models\obj\Debug\net7.0\ref\Models.dll

@@ -8,5 +8,6 @@ namespace Observer_Topic
 {
     internal interface IEmployeeObserver
     {
+        void Update(Employee? employee);
     }
 }

@@ -9,8 +9,8 @@ namespace Command_Pattern
     internal class ChangeDepartmentCommand : ICommand
     {
         private Employee employee;
-        private string oldDepartment;
-        private string newDepartment;
+        private string? oldDepartment;
+        private string? newDepartment;
 
         public ChangeDepartmentCommand(Employee employee, string newDepartment)
         {
