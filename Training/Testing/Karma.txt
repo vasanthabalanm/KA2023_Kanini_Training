@@ -1,0 +1,29 @@
+//automation testing
+
+
+KARMA
+
+JASMINE
+
+describe = testbed ==> fixture, align components, connectivity(providrs),imports
+
+
+it('comments')=>{
+//expect act as if 
+expect()
+}
+
+beforeeach , afterach
+
+
+
+step1 : ceate an angular project
+step2 : give command as ->ng test
+step3 : check the app.components.spec.ts
+
+
+
+A A A
+A->Assign
+A->Act
+A->Assert
